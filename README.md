@@ -163,6 +163,16 @@ Every risky action asks for **confirmation first**, and the app keeps a fastboot
 
 ---
 
+## 🐞 Found a bug? Have an idea?
+
+Open an **[Issue](../../issues/new/choose)** — bug reports and feature requests both land **directly in my notifications**, and I'll reply right there.
+
+Please include your **app version**, your **phone model**, and what you were doing. Screenshots or the app's terminal log speed things up a lot.
+
+For general questions and chat, use **[Discussions](../../discussions)**.
+
+---
+
 ## 🧱 About this repository
 
 This is a **distribution repository** — it hosts the documentation, screenshots and the compiled **release APKs**. The application source code is private and is not published here.

@@ -1,0 +1,94 @@
+name: "🐞 Bug Report"
+description: "Kuch kaam nahi kar raha? Yahan report karo — main seedha notification me dekhta hoon."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make ROM Flasher Tool better! 🙏
+
+        Please fill this in as clearly as you can — the more detail, the faster the fix.
+
+  - type: input
+    id: app_version
+    attributes:
+      label: "App version"
+      description: "Which release are you on? (e.g. v1.1.0 — see the Releases page)"
+      placeholder: "v1.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: host_phone
+    attributes:
+      label: "Host phone (the one running the app)"
+      description: "Model + Android version"
+      placeholder: "e.g. Poco X7 Pro, HyperOS 2, Android 15"
+    validations:
+      required: true
+
+  - type: input
+    id: target_device
+    attributes:
+      label: "Target device (the one being flashed)"
+      description: "Model + codename if you know it"
+      placeholder: "e.g. Redmi Note 12 (tapas), Android 13"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Which part of the app?"
+      options:
+        - Flashing (fastboot / sideload / images)
+        - Stock ROM Downloader
+        - Backup (EFS / IMEI / Kernel)
+        - Root Wizard
+        - App Installer
+        - Debloater
+        - File Manager
+        - Terminal / Logs
+        - UI / Language / Design
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: "What happened?"
+      description: "What did you expect, and what actually happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      placeholder: |
+        1. Open the app
+        2. Tap 'Stock ROM Downloader'
+        3. Pick my device
+        4. App closes
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / screenshots"
+      description: "Paste the app's terminal output, or drag-and-drop a screenshot / screen recording here."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "I am using the latest release APK"
+          required: true
+        - label: "I searched existing issues and this is not a duplicate"
+          required: true

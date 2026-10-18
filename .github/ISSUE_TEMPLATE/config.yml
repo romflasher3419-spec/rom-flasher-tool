@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "❓ FAQ - read this first"
+    url: "https://github.com/romflasher3419-spec/rom-flasher-tool#-faq"
+    about: "Common questions about PC-free flashing, root, supported devices and safety."
+  - name: "📺 YouTube - Rom Flasher"
+    url: "https://www.youtube.com/@Rom_Flasher"
+    about: "Step-by-step video guides, bootloop fixes and ROM reviews."
+  - name: "💬 Ask a question"
+    url: "https://github.com/romflasher3419-spec/rom-flasher-tool/discussions"
+    about: "Not a bug? Ask or discuss anything here."
