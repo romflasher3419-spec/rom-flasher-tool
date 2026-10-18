@@ -239,39 +239,40 @@ def pretty_date(iso):
 #  picking the three rows
 # ---------------------------------------------------------------------------
 def pick_rows(videos):
-    """Newest, most watched and most liked - always three DIFFERENT videos."""
+    """Newest, most watched and most liked - always three DIFFERENT videos.
+
+    The all-time most watched video is very often also the most liked one, in
+    which case showing it twice would look silly. When that happens we take the
+    next one down and say "fan favourite" instead of claiming the #1 spot.
+    """
     if not videos:
         return []
 
     rows = []
     used = set()
 
-    newest = max(videos, key=lambda v: v.get("published", ""))
-    rows.append((newest, "newest"))
-    used.add(newest["id"])
+    def take(video, label):
+        rows.append((video, label))
+        used.add(video["id"])
 
-    for kind, sort_key in (("views", "views"), ("likes", "likes")):
-        best = None
-        for video in sorted(videos, key=lambda v: v[sort_key], reverse=True):
-            if video["id"] not in used and video[sort_key] > 0:
-                best = video
-                break
-        if best:
-            rows.append((best, kind))
-            used.add(best["id"])
+    newest = max(videos, key=lambda v: v.get("published", ""))
+    take(newest, f"🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 {pretty_date(newest.get('published', ''))}")
+
+    for key, top_label, alt_label in (
+        ("views", "🏆 MOST WATCHED", "🔥 POPULAR VIDEO"),
+        ("likes", "❤️ MOST LIKED", "❤️ FAN FAVOURITE"),
+    ):
+        ranked = sorted(videos, key=lambda v: v[key], reverse=True)
+        best = next((v for v in ranked if v["id"] not in used and v[key] > 0), None)
+        if not best:
+            continue
+        label = top_label if ranked[0]["id"] == best["id"] else alt_label
+        take(best, f"{label}&nbsp;&nbsp;·&nbsp;&nbsp;{best[key]:,} {key}")
 
     return rows
 
 
-def row_label(video, kind):
-    if kind == "newest":
-        return f"🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 {pretty_date(video.get('published', ''))}"
-    if kind == "views":
-        return f"🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;👀 {video['views']:,} views"
-    return f"❤️ MOST LIKED&nbsp;&nbsp;·&nbsp;&nbsp;♥ {video['likes']:,} likes"
-
-
-def video_row(video, kind):
+def video_row(video, label):
     """Thumbnail floats left, the title sits next to it, everything links."""
     url = f"https://www.youtube.com/watch?v={video['id']}"
     title = html.escape(video["title"])
@@ -282,7 +283,7 @@ def video_row(video, kind):
             f'<a href="{url}"><img src="{thumb}" width="{THUMB_WIDTH}" '
             f'align="left" alt="{title}"/></a>',
             f'<a href="{url}"><b>{title}</b></a><br/>',
-            f"<sub>{row_label(video, kind)}</sub>",
+            f"<sub>{label}</sub>",
             '<br clear="all"/>',
         ]
     )
@@ -293,7 +294,7 @@ def video_block(rows):
     # GitHub starts wrapping pieces in <p> and the float layout falls apart.
     if not rows:
         return None
-    return "\n<br/>\n".join(video_row(video, kind) for video, kind in rows)
+    return "\n<br/>\n".join(video_row(video, label) for video, label in rows)
 
 
 # ---------------------------------------------------------------------------
