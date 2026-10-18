@@ -223,5 +223,5 @@ Flashing firmware is **risky**. Always back up first. You alone are responsible 
 ---
 
 <div align="center">
-<sub>© 2026 ROM Flasher Tool · Made with ❤️ in India</sub>
+<sub>© 2026 ROM Flasher Tool · Made with ❤️ in India · <a href="PRIVACY.md">Privacy Policy</a> · <a href="TERMS.md">Terms of Service</a></sub>
 </div>
