@@ -58,8 +58,8 @@ Already have an unlock code? Open the app → **"Already have an unlock code?"**
 
 ```
 File    : app-release.apk
-Size    : 9937820 bytes
-SHA-256 : 861DA3E5B0E82044F893D82CE8051896D3DED190C91951E50019A8F2A3853213
+Size    : 9937825 bytes
+SHA-256 : 46DFE1C6B17DF962776874868F12A4C064BC6198458F2E54452263FD04B9E623
 ```
 
 ---
