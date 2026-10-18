@@ -31,21 +31,24 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 [![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-2.03K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
 <!-- YT-SUBS:END -->
 
-### 🔥 Latest Video
-
 <!-- YT-VIDEO:START -->
-<div align="center">
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://i.ytimg.com/vi/pxp_m6uAgug/maxresdefault.jpg" width="360" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/></a>
-<br/><br/>
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><b>🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!</b></a>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://i.ytimg.com/vi/pxp_m6uAgug/mqdefault.jpg" width="150" align="left" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/></a>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><b>🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 17 Oct 2026</sub>
+<br clear="all"/>
 <br/>
-<sub>&#128197; 17 Oct 2026</sub>
-<br/><br/>
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://img.shields.io/badge/%E2%96%B6%20Watch%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube"/></a>
-</div>
+<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus For MI PAD 5 | Android 13 |"/></a>
+<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><b>PixelExperience Plus For MI PAD 5 | Android 13 |</b></a><br/>
+<sub>🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;👀 19,002 views</sub>
+<br clear="all"/>
+<br/>
+<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><img src="https://i.ytimg.com/vi/NUjIiqviMd0/mqdefault.jpg" width="150" align="left" alt="Flash TWRP on Xiaomi 11T PRO  Best Recovery"/></a>
+<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><b>Flash TWRP on Xiaomi 11T PRO  Best Recovery</b></a><br/>
+<sub>❤️ MOST LIKED&nbsp;&nbsp;·&nbsp;&nbsp;♥ 110 likes</sub>
+<br clear="all"/>
 <!-- YT-VIDEO:END -->
 
-> 🤖 This block refreshes by itself — the subscriber count and the latest video stay up to date on their own.
+> 🤖 This block keeps itself up to date — the subscriber count, the newest video and the all-time top videos refresh on their own.
 
 ---
 
