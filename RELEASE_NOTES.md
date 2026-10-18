@@ -61,8 +61,8 @@ The **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher)** cros
 
 ```
 File    : app-release.apk
-Size    : __SIZE__ bytes
-SHA-256 : __SHA256__
+Size    : 9937846 bytes
+SHA-256 : 0AE9BEC43014B214C929A1246BCB0EB50E3E823407B4E2B4E6BF43C2C21C87FE
 ```
 
 ---
