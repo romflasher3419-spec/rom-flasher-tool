@@ -187,8 +187,6 @@ def video_block(video):
     date = pretty_date(video["published"])
     if date:
         meta.append(f"&#128197; {date}")
-    if video["views"]:
-        meta.append(f"&#128064; {int(video['views']):,} views")
 
     button = (
         "https://img.shields.io/badge/"
