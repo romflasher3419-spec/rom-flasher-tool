@@ -1,20 +1,21 @@
-# 🚀 ROM Flasher Tool v1.0.0
+# 🎉 ROM Flasher Tool v1.1.0 — UNLOCKED FOR EVERYONE
 
-**Flash Fastboot & custom ROMs — Android → Android, over USB-OTG. No PC. No Termux.**
+**The 2,000-subscriber milestone is complete!** 🎉
 
----
-
-## 🔒 This is a LOCKED PREVIEW
-
-This build **unlocks for everyone** once the **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher) reaches 2,000 subscribers.**
-
-👉 **[Subscribe on YouTube](https://www.youtube.com/@Rom_Flasher)** — it's free, and it takes the app one step closer to being free for all.
-
-Already have an unlock code? Open the app → **"Already have an unlock code?"** → enter your **Device Code** + **6-digit PIN**.
+The **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher)** crossed **2,000 subscribers**, and just like we promised, the app is now **fully unlocked for everyone**.
 
 ---
 
-## ✨ What's inside
+## 🔓 What changed in this build
+
+- **Lock screen removed** — no more "locked preview", no unlock code, nothing to enter. Open the app and use it.
+- Everything else is the same app you already know: flashing, tools, ROM downloader, backups, debloater and more.
+
+> Subscribing (and sharing the tool with friends) still helps the channel a lot. ❤️
+
+---
+
+## ✨ Full feature list
 
 **Flashing**
 - Flash Fastboot ROMs (`.bat` / `.sh` flash-script parsing)
@@ -46,11 +47,13 @@ Already have an unlock code? Open the app → **"Already have an unlock code?"**
 ## 📲 Install
 
 1. Download **`app-release.apk`** below.
-2. On your phone, allow **Install unknown apps** for your browser / file manager.
+2. Allow **Install unknown apps** for your browser / file manager.
 3. Install and open the app.
 4. Connect the target phone with a **USB-OTG cable**.
 
 > **Requirements:** Android 8.0+ · USB-OTG cable · unlocked bootloader for flashing.
+
+**Already on v1.0.0?** Just install this over it — it is signed with the same key, so your data and settings stay.
 
 ---
 
@@ -58,8 +61,8 @@ Already have an unlock code? Open the app → **"Already have an unlock code?"**
 
 ```
 File    : app-release.apk
-Size    : 9937825 bytes
-SHA-256 : 46DFE1C6B17DF962776874868F12A4C064BC6198458F2E54452263FD04B9E623
+Size    : __SIZE__ bytes
+SHA-256 : __SHA256__
 ```
 
 ---

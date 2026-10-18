@@ -9,19 +9,19 @@
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-3DDC84?logo=android&logoColor=white)](#)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?logo=kotlin&logoColor=white)](#)
 [![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)](#)
-[![Build](https://img.shields.io/badge/Build-Locked%20Preview-orange)](#-locked-preview)
+[![Build](https://img.shields.io/badge/Build-Unlocked-brightgreen)](https://www.youtube.com/channel/UC-Oc7NNVa0oW3nHI1L-3oKQ)
 [![YouTube](https://img.shields.io/badge/YouTube-Rom%20Flasher-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC-Oc7NNVa0oW3nHI1L-3oKQ)
 
 </div>
 
 ---
 
-## 🔒 Locked Preview
+## 🎉 Unlocked for Everyone
 
-> **The public APK is currently a LOCKED preview.**
-> It unlocks **for everyone** once the **[Rom Flasher YouTube channel](https://www.youtube.com/channel/UC-Oc7NNVa0oW3nHI1L-3oKQ) reaches 2,000 subscribers.**
+> **The 2,000-subscriber milestone is COMPLETE! 🎉**
+> The **[Rom Flasher YouTube channel](https://www.youtube.com/channel/UC-Oc7NNVa0oW3nHI1L-3oKQ)** crossed **2,000 subscribers**, so the app is now **fully unlocked for everyone** — no lock screen, no unlock code, nothing to enter.
 
-Till then the released build is intentionally locked. Subscribe on YouTube, share the tool with your friends, and help the channel hit the target — then everyone gets the full app.
+A huge thank you to every single subscriber who made this happen. ❤️ Download the latest release and enjoy the full tool. Subscribing (and sharing the tool) still helps the channel a lot.
 
 ---
 
