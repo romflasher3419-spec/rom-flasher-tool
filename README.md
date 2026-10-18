@@ -25,6 +25,32 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 
 ---
 
+## 📺 YouTube
+
+<!-- YT-SUBS:START -->
+[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-2.03K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
+<!-- YT-SUBS:END -->
+
+### 🔥 Latest Video
+
+<!-- YT-VIDEO:START -->
+<div align="center">
+
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug">
+  <img src="https://i.ytimg.com/vi/pxp_m6uAgug/hqdefault.jpg" width="480" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/>
+</a>
+
+**[🔥 Backup & Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!](https://www.youtube.com/watch?v=pxp_m6uAgug)**
+
+*Uploaded 17 Oct 2026 · 71 views · [Watch on YouTube](https://www.youtube.com/watch?v=pxp_m6uAgug)*
+
+</div>
+<!-- YT-VIDEO:END -->
+
+> 🤖 This block refreshes by itself — the subscriber count and the latest video stay up to date on their own.
+
+---
+
 ## 📖 What is ROM Flasher Tool?
 
 An **Apple/iOS-grade Jetpack Compose** app that turns one Android phone into a complete flashing station. Plug the target device into the host phone over **USB-OTG** and flash Fastboot ROMs, sideload packages, back up EFS/IMEI, rescue boot loops and much more — all from one clean, dark, glassmorphic UI.
