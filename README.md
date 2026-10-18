@@ -96,8 +96,8 @@ Everything runs **on the device**. No PC, no Termux, no root required for the fl
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/screenshot-1.jpg" width="260"/></td>
-    <td align="center"><img src="docs/screenshots/screenshot-2.jpg" width="260"/></td>
+    <td align="center"><img src="docs/screenshots/screenshot-1.jpg" width="260" alt="ROM Flasher Tool - fastboot ROM flashing from an Android phone over USB-OTG"/></td>
+    <td align="center"><img src="docs/screenshots/screenshot-2.jpg" width="260" alt="ROM Flasher Tool - stock ROM downloader, EFS/IMEI backup and device tools"/></td>
   </tr>
 </table>
 
@@ -114,6 +114,52 @@ Everything runs **on the device**. No PC, no Termux, no root required for the fl
 3. Install, open the app, and connect the target phone over a **USB-OTG cable**.
 
 > **Requirements:** Android 8.0 (API 26) or newer · OTG cable · unlocked bootloader for flashing.
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><b>Can I flash a ROM without a PC?</b></summary>
+
+Yes. ROM Flasher Tool is a complete **PC-free flashing station** — it runs on one Android phone and talks to the target phone over **USB-OTG**. No laptop, no Termux, no ADB or fastboot scripts on a computer.
+</details>
+
+<details>
+<summary><b>Do I need root or a custom recovery?</b></summary>
+
+No. The flashing flows need only an **unlocked bootloader** on the target device. Root is optional — the built-in Root Wizard installs **KernelSU / Magisk** if you want it.
+</details>
+
+<details>
+<summary><b>Which phones are supported?</b></summary>
+
+Any device with **fastboot** can be flashed. The built-in **Stock ROM Downloader** has a live, region-wise index for **Xiaomi, POCO, OnePlus, OPPO, realme, vivo / iQOO and Google Pixel**.
+</details>
+
+<details>
+<summary><b>Does it work on Samsung?</b></summary>
+
+Samsung phones do not expose a standard **fastboot** path, so the flashing flows do not apply to them. Other brands work normally over fastboot.
+</details>
+
+<details>
+<summary><b>Is it free?</b></summary>
+
+Yes — **100% free** to download and use. No account, no ads, no unlock code.
+</details>
+
+<details>
+<summary><b>Which Android version do I need?</b></summary>
+
+**Android 8.0 (API 26)** or newer on the host phone, plus a **USB-OTG cable**.
+</details>
+
+<details>
+<summary><b>Is it safe? Can it brick my phone?</b></summary>
+
+Every risky action asks for **confirmation first**, and the app keeps a fastboot **boot-loop rescue** path. That said, flashing is inherently risky — always back up, and only flash ROMs built for your **exact device codename**.
+</details>
 
 ---
 
