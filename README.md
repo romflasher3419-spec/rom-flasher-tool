@@ -32,18 +32,18 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://i.ytimg.com/vi/pxp_m6uAgug/mqdefault.jpg" width="150" align="left" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/></a>
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><b>🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!</b></a><br/>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://i.ytimg.com/vi/pxp_m6uAgug/mqdefault.jpg" width="150" align="left" alt="🔥 Backup &amp; Flash Any Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/></a>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><b>🔥 Backup &amp; Flash Any Android Kernel in 1 CLICK?! 😱 No APK, No Commands!</b></a><br/>
 <sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 17 Oct 2026</sub>
 <br clear="all"/>
 <br/>
-<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus For MI PAD 5 | Android 13 |"/></a>
-<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><b>PixelExperience Plus For MI PAD 5 | Android 13 |</b></a><br/>
+<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus for Mi Pad 5 | Android 13 | Complete Guide"/></a>
+<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><b>PixelExperience Plus for Mi Pad 5 | Android 13 | Complete Guide</b></a><br/>
 <sub>🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;19,002 views</sub>
 <br clear="all"/>
 <br/>
-<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><img src="https://i.ytimg.com/vi/NUjIiqviMd0/mqdefault.jpg" width="150" align="left" alt="Flash TWRP on Xiaomi 11T PRO  Best Recovery"/></a>
-<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><b>Flash TWRP on Xiaomi 11T PRO  Best Recovery</b></a><br/>
+<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><img src="https://i.ytimg.com/vi/NUjIiqviMd0/mqdefault.jpg" width="150" align="left" alt="Flash TWRP on Xiaomi 11T Pro Best Recovery | Full Tutorial"/></a>
+<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><b>Flash TWRP on Xiaomi 11T Pro Best Recovery | Full Tutorial</b></a><br/>
 <sub>❤️ FAN FAVOURITE&nbsp;&nbsp;·&nbsp;&nbsp;110 likes</sub>
 <br clear="all"/>
 <!-- YT-VIDEO:END -->
