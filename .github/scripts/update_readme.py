@@ -142,16 +142,27 @@ def pretty_date(iso):
         return ""
 
 
+def pick_thumbnail(vid):
+    """Best still for the card: 1280x720 is true 16:9 (no black bars)."""
+    for name in ("maxresdefault.jpg", "hq720.jpg", "sddefault.jpg", "hqdefault.jpg"):
+        url = f"https://i.ytimg.com/vi/{vid}/{name}"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                blob = resp.read()
+            # YouTube answers with a tiny placeholder when the size is missing.
+            if len(blob) > 5000:
+                log("[OK]", f"thumbnail {name} ({len(blob)} bytes)")
+                return url
+            log("[i]", f"thumbnail {name} is only a placeholder - trying next")
+        except Exception as ex:
+            log("[i]", f"thumbnail {name} unavailable ({ex})")
+    return f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+
+
 # ---------------------------------------------------------------------------
 #  markdown builders
 # ---------------------------------------------------------------------------
-def md_text(s):
-    """Escape the characters that would break a markdown link label."""
-    for ch in ("\\", "[", "]", "*", "_", "`"):
-        s = s.replace(ch, "\\" + ch)
-    return s
-
-
 def subs_block(subs):
     if not subs:
         return None
@@ -167,30 +178,35 @@ def subs_block(subs):
 def video_block(video):
     if not video:
         return None
+
     url = f"https://www.youtube.com/watch?v={video['id']}"
-    alt = html.escape(video["title"], quote=True)
+    title = html.escape(video["title"])  # inside raw HTML, so HTML escaping
+    thumb = video.get("thumb") or f"https://i.ytimg.com/vi/{video['id']}/hqdefault.jpg"
 
     meta = []
     date = pretty_date(video["published"])
     if date:
-        meta.append(f"Uploaded {date}")
+        meta.append(f"&#128197; {date}")
     if video["views"]:
-        meta.append(f"{int(video['views']):,} views")
-    meta.append(f"[Watch on YouTube]({url})")
+        meta.append(f"&#128064; {int(video['views']):,} views")
 
+    button = (
+        "https://img.shields.io/badge/"
+        "%E2%96%B6%20Watch%20on%20YouTube-FF0000"
+        "?style=for-the-badge&logo=youtube&logoColor=white"
+    )
+
+    # NOTE: no blank lines inside - keeps this one single raw-HTML block.
     return "\n".join(
         [
             '<div align="center">',
-            "",
-            f'<a href="{url}">',
-            f'  <img src="https://i.ytimg.com/vi/{video["id"]}/hqdefault.jpg" '
-            f'width="480" alt="{alt}"/>',
-            "</a>",
-            "",
-            f"**[{md_text(video['title'])}]({url})**",
-            "",
-            "*" + " · ".join(meta) + "*",
-            "",
+            f'<a href="{url}"><img src="{thumb}" width="360" alt="{title}"/></a>',
+            "<br/><br/>",
+            f'<a href="{url}"><b>{title}</b></a>',
+            "<br/>",
+            "<sub>" + "&nbsp;&nbsp;&middot;&nbsp;&nbsp;".join(meta) + "</sub>",
+            "<br/><br/>",
+            f'<a href="{url}"><img src="{button}" alt="Watch on YouTube"/></a>',
             "</div>",
         ]
     )
@@ -237,9 +253,15 @@ def main():
     text, c = replace_block(text, SUBS_START, SUBS_END, subs_block(subs))
     changed |= c
 
-    text, c = replace_block(
-        text, VIDEO_START, VIDEO_END, video_block(videos[0] if videos else None)
-    )
+    latest = None
+    if videos:
+        latest = dict(videos[0])
+        try:
+            latest["thumb"] = pick_thumbnail(latest["id"])
+        except Exception as ex:
+            log("[WARN]", f"thumbnail probe failed: {ex}")
+
+    text, c = replace_block(text, VIDEO_START, VIDEO_END, video_block(latest))
     changed |= c
 
     if changed:

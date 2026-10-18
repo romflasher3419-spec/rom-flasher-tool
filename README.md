@@ -35,15 +35,13 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 
 <!-- YT-VIDEO:START -->
 <div align="center">
-
-<a href="https://www.youtube.com/watch?v=pxp_m6uAgug">
-  <img src="https://i.ytimg.com/vi/pxp_m6uAgug/hqdefault.jpg" width="480" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/>
-</a>
-
-**[🔥 Backup & Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!](https://www.youtube.com/watch?v=pxp_m6uAgug)**
-
-*Uploaded 17 Oct 2026 · 71 views · [Watch on YouTube](https://www.youtube.com/watch?v=pxp_m6uAgug)*
-
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://i.ytimg.com/vi/pxp_m6uAgug/maxresdefault.jpg" width="360" alt="🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!"/></a>
+<br/><br/>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><b>🔥 Backup &amp; Flash ANY Android Kernel in 1 CLICK?! 😱 No APK, No Commands!</b></a>
+<br/>
+<sub>&#128197; 17 Oct 2026&nbsp;&nbsp;&middot;&nbsp;&nbsp;&#128064; 71 views</sub>
+<br/><br/>
+<a href="https://www.youtube.com/watch?v=pxp_m6uAgug"><img src="https://img.shields.io/badge/%E2%96%B6%20Watch%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube"/></a>
 </div>
 <!-- YT-VIDEO:END -->
 
