@@ -1,0 +1,22 @@
+Copyright (c) 2026 ROM Flasher Tool. All rights reserved.
+
+This repository is a PUBLICATION / DISTRIBUTION repository for the ROM Flasher
+Tool Android application. It contains the documentation, screenshots and the
+compiled release APK only. The application source code is proprietary and is
+NOT published here.
+
+Permission is granted to download and use the compiled application for
+personal, non-commercial purposes, free of charge.
+
+You may NOT:
+  - copy, modify, merge, publish, distribute, sublicense or sell the
+    application or any derivative of it;
+  - reverse engineer, decompile or disassemble the application, except to the
+    extent that such activity is expressly permitted by applicable law;
+  - remove or alter any copyright notices or branding;
+  - redistribute the APK through any other channel or store.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. Flashing firmware is inherently risky; the authors are not liable for
+any damage to your device, data loss, or voided warranty. You use this tool
+entirely at your own risk.

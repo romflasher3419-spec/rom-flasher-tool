@@ -1,0 +1,46 @@
+# ===========================================================================
+#  PUBLIC DISTRIBUTION REPO
+#  ---------------------------------------------------------------------------
+#  This repository ships the README, screenshots, and release APKs.
+#  The application SOURCE CODE stays private on the developer's machine.
+# ===========================================================================
+
+# --- Application source (private) -----------------------------------------
+/app/
+/build.gradle.kts
+/settings.gradle.kts
+/gradle.properties
+/gradle/
+/gradlew
+/gradlew.bat
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+build/
+.cxx/
+captures/
+
+# --- Internal development notes (not for public eyes) ----------------------
+/HANDOFF_NEXT_SESSION.md
+/backup_option4_fix_2026-10-12/
+/release.ps1
+
+# --- Signing material - NEVER commit ---------------------------------------
+key.properties
+keystore/
+*.jks
+*.keystore
+*.pepk
+
+# --- VIP unlock-code generator (contains the plaintext HMAC key) -----------
+admin_keygen.py
+Generate_Key.bat
+
+# --- OS junk ---------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.log
