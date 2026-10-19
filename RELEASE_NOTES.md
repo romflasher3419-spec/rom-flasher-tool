@@ -63,8 +63,8 @@ In v1.1.0 the lock was only switched *off* — the code was still inside the APK
 
 ```
 File    : app-release.apk
-Size    : __SIZE__ bytes
-SHA-256 : __SHA__
+Size    : 8692031 bytes
+SHA-256 : C0507AB2E3334C8B7130B9F01FA954DAACF5598476EF0C0C4F36305323D8CCAD
 ```
 
 ---
