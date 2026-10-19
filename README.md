@@ -32,19 +32,9 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=uibOt35APKc"><img src="https://i.ytimg.com/vi/uibOt35APKc/mqdefault.jpg" width="150" align="left" alt="🚨 HyperOS 4 on POCO X7 Pro India? 😱 REAL or FAKE? | Full Review"/></a>
-<a href="https://www.youtube.com/watch?v=uibOt35APKc"><b>🚨 HyperOS 4 on POCO X7 Pro India? 😱 REAL or FAKE? | Full Review</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 18 Oct 2026</sub>
-<br clear="all"/>
-<br/>
-<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus for Mi Pad 5 | Android 13 | Complete Guide"/></a>
-<a href="https://www.youtube.com/watch?v=v5adFI2we2M"><b>PixelExperience Plus for Mi Pad 5 | Android 13 | Complete Guide</b></a><br/>
-<sub>🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;19,002 views</sub>
-<br clear="all"/>
-<br/>
-<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><img src="https://i.ytimg.com/vi/NUjIiqviMd0/mqdefault.jpg" width="150" align="left" alt="Flash TWRP on Xiaomi 11T Pro Best Recovery | Full Tutorial"/></a>
-<a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><b>Flash TWRP on Xiaomi 11T Pro Best Recovery | Full Tutorial</b></a><br/>
-<sub>❤️ FAN FAVOURITE&nbsp;&nbsp;·&nbsp;&nbsp;110 likes</sub>
+<a href="https://www.youtube.com/watch?v=NtMGfxg4j9o"><img src="https://i.ytimg.com/vi/NtMGfxg4j9o/mqdefault.jpg" width="150" align="left" alt="all updated guys"/></a>
+<a href="https://www.youtube.com/watch?v=NtMGfxg4j9o"><b>all updated guys</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 19 Oct 2026</sub>
 <br clear="all"/>
 <!-- YT-VIDEO:END -->
 
