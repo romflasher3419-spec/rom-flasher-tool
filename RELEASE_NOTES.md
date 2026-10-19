@@ -1,14 +1,16 @@
-# 🎉 ROM Flasher Tool v1.1.0 — UNLOCKED FOR EVERYONE
+# ROM Flasher Tool v1.2.0 — No PIN Screen. Nothing To Enter. 🔓
 
-**The 2,000-subscriber milestone is complete!** 🎉
+**The VIP / unlock-code screen is gone from the app itself.** 🎉
 
-The **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher)** crossed **2,000 subscribers**, and just like we promised, the app is now **fully unlocked for everyone**.
+In v1.1.0 the lock was only switched *off* — the code was still inside the APK. This build takes it out completely: the lock screen, the PIN verifier and the native unlock library are all **deleted**, so there is nothing left to show and nothing left to type. Install it and use it. 🚀
 
 ---
 
 ## 🔓 What changed in this build
 
-- **Lock screen removed** — no more "locked preview", no unlock code, nothing to enter. Open the app and use it.
+- **VIP / PIN lock screen REMOVED from the app** — not disabled, deleted. No unlock code, no "locked preview", no device code, no hidden gate.
+- **~1.3 MB lighter download** — the native unlock-code library that shipped in v1.0.0 / v1.1.0 is no longer bundled (release APK: **9.94 MB → 8.69 MB**).
+- **Cleaner & better protected** — the release is still fully obfuscated (R8 + custom renaming dictionary + stripped logging), and every native debug symbol is stripped.
 - Everything else is the same app you already know: flashing, tools, ROM downloader, backups, debloater and more.
 
 > Subscribing (and sharing the tool with friends) still helps the channel a lot. ❤️
@@ -53,7 +55,7 @@ The **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher)** cros
 
 > **Requirements:** Android 8.0+ · USB-OTG cable · unlocked bootloader for flashing.
 
-**Already on v1.0.0?** Just install this over it — it is signed with the same key, so your data and settings stay.
+**Already on v1.0.0 / v1.1.0?** Just install this over it — it is signed with the same key, so your data and settings stay.
 
 ---
 
@@ -61,8 +63,8 @@ The **[Rom Flasher YouTube channel](https://www.youtube.com/@Rom_Flasher)** cros
 
 ```
 File    : app-release.apk
-Size    : 9937846 bytes
-SHA-256 : 0AE9BEC43014B214C929A1246BCB0EB50E3E823407B4E2B4E6BF43C2C21C87FE
+Size    : __SIZE__ bytes
+SHA-256 : __SHA__
 ```
 
 ---
