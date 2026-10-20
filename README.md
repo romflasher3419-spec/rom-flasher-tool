@@ -36,13 +36,13 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 ## 📺 YouTube
 
 <!-- YT-SUBS:START -->
-[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-2.03K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
+[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-1.69K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=NtMGfxg4j9o"><img src="https://i.ytimg.com/vi/NtMGfxg4j9o/mqdefault.jpg" width="150" align="left" alt="all updated guys"/></a>
-<a href="https://www.youtube.com/watch?v=NtMGfxg4j9o"><b>all updated guys</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 19 Oct 2026</sub>
+<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><img src="https://i.ytimg.com/vi/UaGU9zfKVBM/mqdefault.jpg" width="150" align="left" alt="QA Schedule Flow Test - thumbnail check Video - Schedule Flow%20%F0%9F%8E%89"/></a>
+<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><b>QA Schedule Flow Test - thumbnail check Video - Schedule Flow%20%F0%9F%8E%89</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 20 Oct 2026</sub>
 <br clear="all"/>
 <!-- YT-VIDEO:END -->
 
