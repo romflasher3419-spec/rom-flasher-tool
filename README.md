@@ -16,6 +16,14 @@
 
 ---
 
+## 📚 Written guides for every video
+
+> Every video on the channel has its own written page — the same steps in text, with the full description, the download links and the questions people ask. There are **brand**, **ROM**, **year** and **topic** indexes too, so you can find the guide for your exact phone without scrolling a channel.
+>
+> 👉 **[Open the Rom Flasher guides](https://romflasher.in/)**
+
+---
+
 ## 🎉 Unlocked for Everyone
 
 > **The 2,000-subscriber milestone is COMPLETE! 🎉**
