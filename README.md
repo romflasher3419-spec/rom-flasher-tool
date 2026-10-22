@@ -83,8 +83,8 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><img src="https://i.ytimg.com/vi/UaGU9zfKVBM/mqdefault.jpg" width="150" align="left" alt="QA Schedule Flow Test - thumbnail check Video - Schedule Flow%20%F0%9F%8E%89"/></a>
-<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><b>QA Schedule Flow Test - thumbnail check Video - Schedule Flow%20%F0%9F%8E%89</b></a><br/>
+<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><img src="https://i.ytimg.com/vi/UaGU9zfKVBM/mqdefault.jpg" width="150" align="left" alt="ColorOS 17 on POCO X7 Pro - Android 17 Port Flash Without PC"/></a>
+<a href="https://www.youtube.com/watch?v=UaGU9zfKVBM"><b>ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC</b></a><br/>
 <sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 20 Oct 2026</sub>
 <br clear="all"/>
 <br/>
