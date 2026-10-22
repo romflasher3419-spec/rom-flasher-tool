@@ -83,8 +83,8 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><img src="https://i.ytimg.com/vi/uoSlgiBMyCY/mqdefault.jpg" width="150" align="left" alt="ColorOS 17 on POCO X7 Pro - Android 17 Port Flash Without PC"/></a>
-<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><b>ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC</b></a><br/>
+<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><img src="https://i.ytimg.com/vi/uoSlgiBMyCY/mqdefault.jpg" width="150" align="left" alt="ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC [Clean Flash Guide]"/></a>
+<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><b>ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC [Clean Flash Guide]</b></a><br/>
 <sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 22 Oct 2026</sub>
 <br clear="all"/>
 <br/>
