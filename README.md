@@ -83,9 +83,9 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><img src="https://i.ytimg.com/vi/uoSlgiBMyCY/mqdefault.jpg" width="150" align="left" alt="ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC [Clean Flash Guide]"/></a>
-<a href="https://www.youtube.com/watch?v=uoSlgiBMyCY"><b>ColorOS 17 on POCO X7 Pro! 🔥 Android 17 Port Flash Without PC [Clean Flash Guide]</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 22 Oct 2026</sub>
+<a href="https://www.youtube.com/watch?v=hhTGEkND2k4"><img src="https://i.ytimg.com/vi/hhTGEkND2k4/mqdefault.jpg" width="150" align="left" alt="ColorOS 17 on Xiaomi Pad 5! 🔥 Android 17 Pad Port Flash Without PC [Clean Flash Guide]"/></a>
+<a href="https://www.youtube.com/watch?v=hhTGEkND2k4"><b>ColorOS 17 on Xiaomi Pad 5! 🔥 Android 17 Pad Port Flash Without PC [Clean Flash Guide]</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 23 Oct 2026</sub>
 <br clear="all"/>
 <br/>
 <a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus on Mi Pad 5 📱 Android 13 Sideload Guide"/></a>
