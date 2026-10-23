@@ -6,19 +6,19 @@
 #    * the YouTube subscriber count badge
 #    * the "Latest Video" card (thumbnail + title + date + views)
 #
-#  Runs every 4 hours, and can also be started by hand from the Actions tab.
+#  Runs every 2 hours, and can also be started by hand from the Actions tab.
 #  Only commits when something actually changed.
 #
 #  Optional: add a repository secret named YT_API_KEY with a YouTube Data API v3
 #  key to use the official API for the subscriber count. Without it the script
-#  reads the public channel page instead - no key, no setup.
+#  reads the public channel page instead — no key, no setup.
 # =============================================================================
 
 name: Update README (YouTube live)
 
 on:
   schedule:
-    - cron: "23 */4 * * *" # every 4 hours
+    - cron: "15 */2 * * *" # every 2 hours
   workflow_dispatch:
 
 permissions:
