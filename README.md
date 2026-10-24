@@ -34,6 +34,7 @@ Traditional Android flashing requires a PC, ADB/Fastboot drivers, platform-tools
 
 | Feature | ⚡ ROM Flasher Tool | 💻 PC (Windows / Linux) | 📟 Termux / OTG CLI |
 | :--- | :---: | :---: | :---: |
+| **1-Click Auto Flasher** | ✅ **1-Tap Flash (No PC/Termux)** | ❌ Multiple manual steps | ❌ None |
 | **No PC Required** | ✅ **100% Mobile (USB-OTG)** | ❌ Computer Needed | ⚠️ Complex command setup |
 | **No Host Root Required** | ✅ **Works on any stock phone** | N/A | ❌ Usually requires root |
 | **Fastboot Script Runner** | ✅ **Auto-runs `.bat` / `.sh`** | ⚠️ Manual CMD commands | ❌ No native script parser |
@@ -104,6 +105,16 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 ---
 
 ## ✨ Features Breakdown
+
+<details open>
+<summary><b>🔥 1-Click Auto Flasher Engine (NEW)</b></summary>
+
+- **True 1-Tap ROM Flashing** — Flash ANY AOSP Custom ROM (Project Infinity X, PixelOS, LineageOS, Evolution X) with just ONE tap over USB-OTG!
+- **Zero PC & Zero Termux** — No commands, no scripts, no desktop dependencies whatsoever.
+- **No Vendor_Boot Pre-Flashing Needed** — Automated recovery sideloading eliminates manual partition prep.
+- **Intelligent A/B Slot Manager** — Seamless slot switching, verification, and automated direct boot to system upon completion.
+
+</details>
 
 <details open>
 <summary><b>🚀 Flashing Engine</b></summary>
