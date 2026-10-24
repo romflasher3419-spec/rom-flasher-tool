@@ -84,8 +84,8 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><img src="https://i.ytimg.com/vi/frActlLmfj4/mqdefault.jpg" width="150" align="left" alt="How to Flash ANY ROM with One Single Click! 🔥 No PC, No Termux, No Commands [ROM Flasher Tool]"/></a>
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><b>How to Flash ANY ROM with One Single Click! 🔥 No PC, No Termux, No Commands [ROM Flasher Tool]</b></a><br/>
+<a href="https://www.youtube.com/watch?v=frActlLmfj4"><img src="https://i.ytimg.com/vi/frActlLmfj4/mqdefault.jpg" width="150" align="left" alt="How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]"/></a>
+<a href="https://www.youtube.com/watch?v=frActlLmfj4"><b>How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]</b></a><br/>
 <sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 24 Oct 2026</sub>
 <br clear="all"/>
 <br/>
