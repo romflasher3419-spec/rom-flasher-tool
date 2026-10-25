@@ -1,7 +1,9 @@
-# ⚡ ROM FLASHER AUTOMATED CONTENT DISTRIBUTION — HARDCODED BINDING RULES
+# ⚡ ROM FLASHER AUTOMATED WORKFLOWS — HARDCODED BINDING RULES
 
 > **SYSTEM INSTRUCTION FOR AGENT (ANTIGRAVITY / GEMINI):**
-> Ye rules user (Rohit bhai / @Rom_Flasher) ke dwara strictly mandate kiye gaye hain. Jab bhi user bole **"new video upload krdi"**, **"nayi video aa gayi hai"**, **"video schedule kar di hai"** ya similar trigger, agent ko ye complete 4-in-1 automated workflow **ZERO-TO-HERO** execute karna hai bina baar-baar sawaal pooche ya rules bhule.
+> Ye rules user (Rohit bhai / @Rom_Flasher) ke dwara strictly mandate kiye gaye hain:
+> 1. Jab bhi user bole **"new video upload krdi"**, **"nayi video aa gayi hai"**, **"video schedule kar di hai"** ya similar trigger → Run 4-in-1 automated distribution pipeline ZERO-TO-HERO.
+> 2. Jab bhi user bole **"bhai maine new windows dal li"**, **"windows change kari hai"**, **"pc format kiya hai"** ya similar trigger → **Bina koi sawaal pooche 100% Zero-Click Full System Auto-Restore execute karo.**
 
 ---
 
@@ -157,5 +159,26 @@ Har run ke baad user ko saare live links structured format me provide karo:
 2. **Nayi Windows / PC Migration Auto-Restore:**
    - Agar Rohit bhai Windows reinstall ya upgrade karte hain, toh Master Backup folder me shamil `RESTORE_ALL.ps1` ya `credentials_and_tools/install_guard_task_silent.ps1` se ye automated silent guard automatically dobara install aur configure ho jayega.
    - Agent ko prompt milte hi (`maine master backup paste kar diya hai`), agent automatically task scheduler me silent guard restore kar dega bina user ke kahe.
+
+---
+
+## 8. 🔄 "WINDOWS CHANGE KARI HAI" / "NEW WINDOWS DAL LI" — ZERO-CLICK FULL AUTO RESTORE (MANDATORY)
+Jab Rohit bhai bole *"bhai maine new windows dal li"*, *"windows change kari hai"*, *"pc format kiya hai"*, ya *"backup se sab restore kardo"*:
+- **KOI BHI SAWAAL NA POOCHO.**
+- Background me ye 5 steps immediately execute karo:
+  1. **Locate Backup Vault:** Master Backup folder (`romflasher-master-backup` / `ROM_FLASHER_MASTER_BACKUP`) locate karo.
+  2. **Run Restore Script:** `RESTORE_ALL.ps1` execute karo jo:
+     - `.romflasher` config, `yt_credentials.json`, `guard_daily.py`, `secret_guard.py` ko `$HOME\.romflasher\` me inject karega.
+     - Git `.gitconfig` aur credentials restore karega.
+     - Task Scheduler me `RomFlasher Secret Guard` ko **strictly invisible (`pythonw.exe`) mode me 11:30 AM** daily trigger ke sath register karega.
+  3. **Verify Instagram & Facebook Tokens:** `C:\Users\vrohi\Documents\Instagram_Automation\config.json` me permanent Page token aur IG tokens integrity check karo.
+  4. **Verify All 3 Repositories:**
+     - `rom-flasher-tool` (`Documents\ROM_Flasher_Tool`)
+     - `romflasher-site` (`romflasher-site`)
+     - `romflasher-master-private` (`romflasher-master-backup`)
+     Ensure branches origin/main par sync hain.
+  5. **Final Clean Delivery Report:** Rohit bhai ko single reassuring message me deliver karo:
+     *"Bhai nayi Windows par aapka poora setup (App Keystore, Website, YouTube API, FB/Instagram Permanent Tokens, aur Daily 11:30 AM Silent Security Guard) 100% restore aur active ho chuka hai! Kuch bhi dobara setup karne ki zaroorat nahi hai."*
+
 
 
