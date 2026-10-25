@@ -81,23 +81,18 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 ## 📺 YouTube
 
 <!-- YT-SUBS:START -->
-[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-1.70K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
+[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-1.71K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=MPSwx3y1ipA"><img src="https://i.ytimg.com/vi/MPSwx3y1ipA/mqdefault.jpg" width="150" align="left" alt="Pass Basic, Device & Strong Integrity in 30 Seconds! 🔥 Device Certified [No Modules, No PC]"/></a>
-<a href="https://www.youtube.com/watch?v=MPSwx3y1ipA"><b>Pass Basic, Device & Strong Integrity in 30 Seconds! 🔥 Device Certified [No Modules, No PC]</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 25 Oct 2026</sub>
-<br clear="all"/>
-<br/>
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><img src="https://i.ytimg.com/vi/frActlLmfj4/mqdefault.jpg" width="150" align="left" alt="How to Flash ANY ROM with One Single Click! 🔥 No PC, No Termux, No Commands [ROM Flasher Tool]"/></a>
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><b>How to Flash ANY ROM with One Single Click! 🔥 No PC, No Termux, No Commands [ROM Flasher Tool]</b></a><br/>
-<sub>⚡ POPULAR&nbsp;&nbsp;·&nbsp;&nbsp;📅 24 Oct 2026</sub>
+<a href="https://www.youtube.com/watch?v=frActlLmfj4"><img src="https://i.ytimg.com/vi/frActlLmfj4/mqdefault.jpg" width="150" align="left" alt="How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]"/></a>
+<a href="https://www.youtube.com/watch?v=frActlLmfj4"><b>How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 24 Oct 2026</sub>
 <br clear="all"/>
 <br/>
 <a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus on Mi Pad 5 📱 Android 13 Sideload Guide"/></a>
 <a href="https://www.youtube.com/watch?v=v5adFI2we2M"><b>PixelExperience Plus on Mi Pad 5 📱 Android 13 Sideload Guide</b></a><br/>
-<sub>🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;19,004 views</sub>
+<sub>🏆 MOST WATCHED&nbsp;&nbsp;·&nbsp;&nbsp;19,005 views</sub>
 <br clear="all"/>
 <br/>
 <a href="https://www.youtube.com/watch?v=NUjIiqviMd0"><img src="https://i.ytimg.com/vi/NUjIiqviMd0/mqdefault.jpg" width="150" align="left" alt="TWRP on Xiaomi 11T Pro 🧡 Flash Recovery With One Fastboot Command"/></a>
