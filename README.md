@@ -85,9 +85,9 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><img src="https://i.ytimg.com/vi/frActlLmfj4/mqdefault.jpg" width="150" align="left" alt="How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]"/></a>
-<a href="https://www.youtube.com/watch?v=frActlLmfj4"><b>How to Flash ANY ROM With One Single Click! 🔥 No PC, No Termux, No Commands [Auto Flasher]</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 24 Oct 2026</sub>
+<a href="https://www.youtube.com/watch?v=MPSwx3y1ipA"><img src="https://i.ytimg.com/vi/MPSwx3y1ipA/mqdefault.jpg" width="150" align="left" alt="Pass Basic, Device &amp; Strong Integrity in 30 Seconds! 🔥 Device Certified [No Modules, No PC]"/></a>
+<a href="https://www.youtube.com/watch?v=MPSwx3y1ipA"><b>Pass Basic, Device &amp; Strong Integrity in 30 Seconds! 🔥 Device Certified [No Modules, No PC]</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 25 Oct 2026</sub>
 <br clear="all"/>
 <br/>
 <a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus on Mi Pad 5 📱 Android 13 Sideload Guide"/></a>
