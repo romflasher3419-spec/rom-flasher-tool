@@ -81,7 +81,7 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 ## 📺 YouTube
 
 <!-- YT-SUBS:START -->
-[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-1.70K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
+[![YouTube Subscribers](https://img.shields.io/badge/YouTube%20Subscribers-1.71K-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@Rom_Flasher)
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
