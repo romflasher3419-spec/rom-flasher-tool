@@ -4,6 +4,7 @@
 > Ye rules user (Rohit bhai / @Rom_Flasher) ke dwara strictly mandate kiye gaye hain:
 > 1. Jab bhi user bole **"new video upload krdi"**, **"nayi video aa gayi hai"**, **"video schedule kar di hai"** ya similar trigger → Run 4-in-1 automated distribution pipeline ZERO-TO-HERO.
 > 2. Jab bhi user bole **"bhai maine new windows dal li"**, **"windows change kari hai"**, **"pc format kiya hai"** ya similar trigger → **Bina koi sawaal pooche 100% Zero-Click Full System Auto-Restore execute karo.**
+> 3. **SACRED HOST PHONE RULE (STRICT MANDATE):** Wireless ADB se jo device (rodin) connected hai wo Rohit bhai ka HOST PHONE hai (jisme Rom Flasher Tool run hota hai). Us par kabhi bhi direct ADB shell se root, fastboot, flash, reboot ya system modification test nahi karni! Target phone host phone se USB-OTG ke through judta hai aur saara operation APP KE ANDAR se hota hai. Wireless ADB sirf APK install aur app logcat dekhne ke liye use hoga.
 
 ---
 
@@ -53,9 +54,21 @@ Jab user nayi video announce kare:
      - **Column Alignment:** First column (Features/Requirements) strictly left-aligned (`:---`), jabki comparison metrics, status aur checkmarks strictly center-aligned (`:---:`).
      - **Visual Icons & High Contrast:** Plain boring text ki jagah visual icons, green checkmarks (`✅`), red cross warnings (`❌`), lightning badges (`⚡`) lagao taaki dekhte hi clear visual contrast mile.
      - **Native HTML Wrapping:** Engine me table hamesha `<div class="tablewrap"><table class="pro-table">` me compile ho jisse mobile screens par responsive touch-scroll smoothly kaam kare bina text bikhre.
-3. **Static Build:**
-   - Run: `python build.py` inside `C:\Users\vrohi\romflasher-site\`.
-4. **MANDATORY LIVE DEPLOY (DO NOT FORGET):**
+3. **Universal Obsidian Red & Gold Theme & Typography (MANDATORY DEFAULTS):**
+   - **Theme Identity:** Deep rich obsidian black background (`#070709`, `#0d0d12`), Imperial Red accents (`#e50914`, `#ff2a3b`), Warm Metallic Gold (`#d4af37`, `#f3e5ab`), Crisp snow white (`#f8fafc`).
+   - **Typography Standard:** `Plus Jakarta Sans` (weights 400, 500, 600, 700, 800) Google Font preconnect ke through har page ke `<head>` me inject rahega. Zero local font mismatch between PC and mobile browsers.
+   - **Rohit Verma Author Avatar:** Circular avatar (`border-radius: 50% !important; aspect-ratio: 1/1; object-fit: cover;`) with animated warm gold glowing pulse (`@keyframes goldGlowPulse`) aur E-E-A-T profile schema.
+4. **Zero-Autoplay Click-to-Play Video Facade (MANDATORY AD-SENSE & UX STANDARD):**
+   - ❌ **KABHI BHI RAW IFRAME YA AUTOPLAY EMBED MAT DAALO:** Initial page load par koi `<iframe>` render nahi hoga jisse zero initial bandwidth drain, zero layout shift (CLS = 0), aur zero AdSense intrusive video playback violations hon.
+   - ✅ **Click-to-Play Facade Engine (`.yt-facade`):** Har guide page par high-res poster image (`https://i.ytimg.com/vi/<id>/hqdefault.jpg`) + animated hover-lift YouTube red play button display hoga. Jab user play button par tap ya click karega, tabhi lightweight `youtube-nocookie.com` iframe dynamically inject hoke video stream hogi.
+   - **Standalone YouTube Toolbar:** Video player ke neeche prominent red button `Watch on YouTube (@Rom_Flasher)` hamesha present rahega taaki kisi bhi browser restriction ya ad-blocker par user 1-click me direct channel par video dekh sake.
+5. **Mandatory YouTube API Embedding Status Check (MANDATORY):**
+   - Nayi video publish ya sync karte waqt YouTube Data API v3 se check aur verify karna compulsory hai ki video ka `status.embeddable == True` ho.
+   - Agar YouTube backend par `embeddable: False` ho, toh `yt_tool.py` / `ensure_yt_embed.py` se `videos.update(part="status,snippet")` call karke `embeddable = True` enforce karo, taaki *"Playback on other websites has been disabled by the video owner"* ka error kabhi na aaye.
+6. **Static Build:**
+   - Run: `python build.py` inside `romflasher-site\`.
+   - Verification checks: `python _seocheck.py` aur `python qa.py --links`.
+7. **MANDATORY LIVE DEPLOY (DO NOT FORGET):**
    - Sirf locally build karna kaafi nahi hai.
    - Mandatory Git push execute karo:
      ```bash
