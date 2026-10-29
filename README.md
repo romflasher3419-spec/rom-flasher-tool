@@ -35,14 +35,14 @@ Traditional Android flashing requires a PC, ADB/Fastboot drivers, platform-tools
 | Feature | ⚡ ROM Flasher Tool | 💻 PC (Windows / Linux) | 📟 Termux / OTG CLI |
 | :--- | :---: | :---: | :---: |
 | **1-Click Auto Flasher** | ✅ **1-Tap Flash (No PC/Termux)** | ❌ Multiple manual steps | ❌ None |
-| **1-Click Play Integrity Pass** | ✅ **Basic, Device & Strong in 30s** | ❌ Manual fingerprint hunting | ⚠️ Frequent bans/fails |
+| **Native Rust Payload Dumper** | ✅ **Extract payload.bin on phone** | ⚠️ Heavy Python/Go scripts | ❌ Resource intensive/slow |
 | **No PC Required** | ✅ **100% Mobile (USB-OTG)** | ❌ Computer Needed | ⚠️ Complex command setup |
 | **No Host Root Required** | ✅ **Works on any stock phone** | N/A | ❌ Usually requires root |
 | **Fastboot Script Runner** | ✅ **Auto-runs `.bat` / `.sh`** | ⚠️ Manual CMD commands | ❌ No native script parser |
 | **Built-in ROM Downloader** | ✅ **Multi-segment Fast Download** | ❌ Manual web search | ❌ None |
 | **Super Partition Sparse Chunking** | ✅ **Streams 4–8 GB images safely** | ⚠️ Driver/Buffer sensitive | ❌ Prone to buffer crash |
 | **Touchscreen UI** | ✅ **Apple-grade Dark Glassmorphism** | ❌ Boring command prompt | ❌ Pure terminal |
-| **Boot-loop Rescue** | ✅ **1-Click Fastboot Recovery** | ⚠️ Complex manual steps | ❌ None |
+| **EFS & Baseband Backup** | ✅ **1-Tap IMEI/Modem Safety** | ⚠️ Complex QFIL / QPST tools | ❌ None |
 
 ---
 
