@@ -5,6 +5,39 @@
 > 1. Jab bhi user bole **"new video upload krdi"**, **"nayi video aa gayi hai"**, **"video schedule kar di hai"** ya similar trigger → Run 4-in-1 automated distribution pipeline ZERO-TO-HERO.
 > 2. Jab bhi user bole **"bhai maine new windows dal li"**, **"windows change kari hai"**, **"pc format kiya hai"** ya similar trigger → **Bina koi sawaal pooche 100% Zero-Click Full System Auto-Restore execute karo.**
 > 3. **SACRED HOST PHONE RULE (STRICT MANDATE):** Wireless ADB se jo device (rodin) connected hai wo Rohit bhai ka HOST PHONE hai (jisme Rom Flasher Tool run hota hai). Us par kabhi bhi direct ADB shell se root, fastboot, flash, reboot ya system modification test nahi karni! Target phone host phone se USB-OTG ke through judta hai aur saara operation APP KE ANDAR se hota hai. Wireless ADB sirf APK install aur app logcat dekhne ke liye use hoga.
+> 4. **THE 4-STAGE PEAK-HARDENING RULE (ZERO BOOTLOOP MANDATE):** Jab bhi Rohit bhai kisi bhi feature, upgrade ya modification ka bolen, agent ko KABHI BHI superficial / happy-path code nahi likhna hai. Agent ko 4 compulsory stages (Hardware/SoC matrix for Qualcomm/MediaTek/Exynos/Tensor, Partition & Super space calculations, Binary magic & archive input validation, aur Zero-touch auto-reconnection USB lifecycles) par feature ko peak level par harden karke hi deliver karna hai taaki kisi ka phone kabhi bootloop na ho!
+
+---
+
+## 0. 🛡️ THE 4-STAGE PEAK-HARDENING & HARDWARE CALCULATION PROTOCOL (ZERO BOOTLOOP MANDATE)
+
+> **STRICT BINDING INSTRUCTION:** Jab bhi Rohit bhai koi feature request ya upgrade demand karein, agent ko us feature ko deliver karne se pehle **4 COMPULSORY HARDENING STAGES** se guzaarna mandatory hai. Rohit bhai ko dobara bolne ya yaad dilane ki zaroorat nahi padni chahiye — pehli baar mein hi feature peak level of safety par ready hona chahiye!
+
+### 🔹 STAGE 1: HARDWARE & SOC COMPATIBILITY MATRIX
+Har feature ko sabhi major mobile SoCs ke context mein verify aur calculate karna hai:
+- **Qualcomm (Snapdragon):** Standard fastbootd, dynamic partitions, dual-slot A/B, EDL fail-safes.
+- **MediaTek (Dimensity & Helio):** Chained AVB 2.0/3.0 verification (`vbmeta`, `vbmeta_system`, `vbmeta_vendor`). Generic blank 4KB vbmeta flash ko **strictly block** karna hai taaki "Red State" bootloop na aaye. Genuine stock vbmeta patching support karna hai.
+- **Samsung (Exynos & Knox):** Fastboot limitations (Odin vs TWRP fastbootd), Knox bootloader verification, VaultKeeper protections.
+- **Google Tensor & Unisoc (Spreadtrum):** GKI (Generic Kernel Image) boot boundaries, USB chunk sizes, Unisoc partition naming conventions.
+
+### 🔹 STAGE 2: PARTITION ARCHITECTURE & MEMORY BOUNDARIES
+Har Android version (Android 9 se Android 15+) ke partition schemes ke against stress-test:
+- **Legacy Non-A/B vs A/B:** Correct active slot detection (`getvar:current-slot`) aur slot-specific fallback (`system_a` vs `system`).
+- **Dynamic Partitions ('super'):** Fastbootd Userspace mode is strictly mandatory for dynamic partitions. Agar space kam ho (`Not enough space`), unneeded stock `product` aur `system_ext` partitions ko auto-free karke space create karna.
+- **Virtual A/B Snapshots:** Flashing se pehle pending background OTA snapshots check karna (`snapshot-update-status: merging / snapshotted`) aur safely `snapshot-update:cancel` execute karna.
+
+### 🔹 STAGE 3: BINARY INTEGRITY & USER INPUT SANITIZATION
+User dwara select ki gayi kisi bhi file par blindly trust nahi karna:
+- **Magic Header Inspection:** First 64 bytes inspect karna (`BOOT_MAGIC`, `AVB0`, Sparse `0xed26ff3a`, Ext4 `0x53ef`, EROFS `0xe2f56a42`).
+- **GKI Split Inspection:** Android 13+ devices mein `kernel_size == 0L` check karke `init_boot` aur `boot` ko strictly separate aur lock karna.
+- **Archive Compression Guard:** File extensions aur magic bytes (`.xz`, `.zip`, `.gz`, `.7z`, `.rar`) check karke compressed archives ko reject karna aur user ko extraction guidance dena taaki partition raw bytes se corrupt na ho.
+- **Original Filename Preservation:** SAF se real `DISPLAY_NAME` lena, generic names se partition confuse hone se bachana.
+
+### 🔹 STAGE 4: ZERO-TOUCH AUTOMATION & RESILIENT USB LIFECYCLE
+User experience seamless aur zero-manual intervention hona chahiye:
+- **Resilient USB Reconnection:** Jab phone Fastbootd, bootloader, ya recovery mein reboot ho, purana USB session terminate karke background polling (`waitForDevice`) se naye USB endpoint ko auto-capture karna.
+- **Automatic Resume:** Fastbootd detect hote hi operation bina user ko dobara tap karwaye automatically execute karna.
+- **Clean First Boot Wipe:** FBE (File-Based Encryption) keystore panics se bachne ke liye `erase:userdata`, `format:userdata`, `erase:metadata` execute karna taaki first boot 100% clean ho.
 
 ---
 
