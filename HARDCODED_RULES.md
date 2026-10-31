@@ -83,25 +83,40 @@ Jab user nayi video announce kare:
    - YouTube video ka detailed technical article generate karo (Requirements, Device compatibility table, Transcript se live steps, FAQ, aur official download buttons).
    - ❌ No Telegram links.
 2. **Responsive Cyber-Glass Comparison Table/Chart Standard (MANDATORY):**
-   - Har article me jab bhi comparison ya technical breakdown table aaye, usko strictly `pro-table` standards par format karo:
-     - **Column Alignment:** First column (Features/Requirements) strictly left-aligned (`:---`), jabki comparison metrics, status aur checkmarks strictly center-aligned (`:---:`).
-     - **Visual Icons & High Contrast:** Plain boring text ki jagah visual icons, green checkmarks (`✅`), red cross warnings (`❌`), lightning badges (`⚡`) lagao taaki dekhte hi clear visual contrast mile.
-     - **Native HTML Wrapping:** Engine me table hamesha `<div class="tablewrap"><table class="pro-table">` me compile ho jisse mobile screens par responsive touch-scroll smoothly kaam kare bina text bikhre.
-3. **Universal Obsidian Red & Gold Theme & Typography (MANDATORY DEFAULTS):**
+   - ❌ **STRICT BAN ON RAW HTML IN JSON BODY:** JSON ke `body` field me KABHI BHI raw `<div class="tablewrap"><table class="pro-table">...</table></div>` mat daalna! `build.py` ka engine `body` ko `html.escape()` se sanitize karta hai, jisse raw HTML tags `&lt;div class=...` me badal jaate hain aur screen par unrendered ugly code text print hota hai!
+   - ✅ **MANDATORY PURE MARKDOWN TABLE SYNTAX:** Hamesha pure Markdown table syntax (`| Feature | Traditional | Tool |` with `:---` aur `:---:`) use karo. `build.py` ka built-in `_render_md_table()` engine automatically isko `<div class="tablewrap"><table class="pro-table">` me compile kar deta hai!
+   - **Column Alignment:** First column (Features/Requirements) strictly left-aligned (`:---`), jabki comparison metrics, status aur checkmarks strictly center-aligned (`:---:`).
+   - **Visual Icons & High Contrast:** Plain boring text ki jagah visual icons, green checkmarks (`✅`), red cross warnings (`❌`), lightning badges (`⚡`), gold strong tags (`**...**`) lagao taaki dekhte hi clear visual contrast aur cyber-glass look mile.
+3. **Interactive FAQ Accordions Standard (MANDATORY):**
+   - ❌ **FAQ KABHI BHI `body` TEXT ME NAHI AAYEGA:** FAQ ko markdown list ya headings ki tarah `body` me dump karna strictly prohibited hai.
+   - ✅ **TOP-LEVEL `"faq"` ARRAY:** FAQ ko hamesha JSON ke root level par `"faq": [ {"q": "...", "a": "..."}, ... ]` array me 4-5 high-search query pairs ke roop me provide karo. `build.py` automatically isko interactive expandable Obsidian accordion cards (`<details class="faq"><summary>...</summary>`) me compile karta hai.
+4. **Code Blocks & Formatting (MANDATORY):**
+   - ❌ **NO TRIPLE-BACKTICK BLOCKS (```):** `build.py` markdown engine triple-backtick code fences ko parse nahi karta aur unhe plain paragraph me convert kar deta hai. Commands, error codes aur logs ke liye hamesha single backticks (`code`) ya blockquotes (`> text`) use karo.
+5. **Voice & Writing Quality (`WRITER.md` Standard):**
+   - **Rohit Verma (@Rom_Flasher) Authentic Voice:** Modder talking to a friend. No AI robotic tone, no generic Wikipedia summaries, no hype words.
+   - **Mandatory Sections in Body:**
+     - Hook (2–4 lines describing the real reader's pain point).
+     - Highlights bullet list (`## ⚡ Key Highlights...`).
+     - Cyber-glass Comparison Table (`## 📊 ...`).
+     - Requirements list (`## 🛠️ What You Need...`).
+     - Step-by-Step Sequence (`## Step 1 — ...`, `## Step 2 — ...`).
+     - Failure modes (`## ⚠️ Where People Get Stuck`).
+     - Honest detail / reboot behavior (`## 💡 One Honest Thing to Know`).
+6. **Universal Obsidian Red & Gold Theme & Typography (MANDATORY DEFAULTS):**
    - **Theme Identity:** Deep rich obsidian black background (`#070709`, `#0d0d12`), Imperial Red accents (`#e50914`, `#ff2a3b`), Warm Metallic Gold (`#d4af37`, `#f3e5ab`), Crisp snow white (`#f8fafc`).
    - **Typography Standard:** `Plus Jakarta Sans` (weights 400, 500, 600, 700, 800) Google Font preconnect ke through har page ke `<head>` me inject rahega. Zero local font mismatch between PC and mobile browsers.
    - **Rohit Verma Author Avatar:** Circular avatar (`border-radius: 50% !important; aspect-ratio: 1/1; object-fit: cover;`) with animated warm gold glowing pulse (`@keyframes goldGlowPulse`) aur E-E-A-T profile schema.
-4. **Zero-Autoplay Click-to-Play Video Facade (MANDATORY AD-SENSE & UX STANDARD):**
+7. **Zero-Autoplay Click-to-Play Video Facade (MANDATORY AD-SENSE & UX STANDARD):**
    - ❌ **KABHI BHI RAW IFRAME YA AUTOPLAY EMBED MAT DAALO:** Initial page load par koi `<iframe>` render nahi hoga jisse zero initial bandwidth drain, zero layout shift (CLS = 0), aur zero AdSense intrusive video playback violations hon.
    - ✅ **Click-to-Play Facade Engine (`.yt-facade`):** Har guide page par high-res poster image (`https://i.ytimg.com/vi/<id>/hqdefault.jpg`) + animated hover-lift YouTube red play button display hoga. Jab user play button par tap ya click karega, tabhi lightweight `youtube-nocookie.com` iframe dynamically inject hoke video stream hogi.
    - **Standalone YouTube Toolbar:** Video player ke neeche prominent red button `Watch on YouTube (@Rom_Flasher)` hamesha present rahega taaki kisi bhi browser restriction ya ad-blocker par user 1-click me direct channel par video dekh sake.
-5. **Mandatory YouTube API Embedding Status Check (MANDATORY):**
+8. **Mandatory YouTube API Embedding Status Check (MANDATORY):**
    - Nayi video publish ya sync karte waqt YouTube Data API v3 se check aur verify karna compulsory hai ki video ka `status.embeddable == True` ho.
    - Agar YouTube backend par `embeddable: False` ho, toh `yt_tool.py` / `ensure_yt_embed.py` se `videos.update(part="status,snippet")` call karke `embeddable = True` enforce karo, taaki *"Playback on other websites has been disabled by the video owner"* ka error kabhi na aaye.
-6. **Static Build:**
+9. **Static Build & Verification:**
    - Run: `python build.py` inside `romflasher-site\`.
    - Verification checks: `python _seocheck.py` aur `python qa.py --links`.
-7. **MANDATORY LIVE DEPLOY (DO NOT FORGET):**
+10. **MANDATORY LIVE DEPLOY (DO NOT FORGET):**
    - Sirf locally build karna kaafi nahi hai.
    - Mandatory Git push execute karo:
      ```bash
