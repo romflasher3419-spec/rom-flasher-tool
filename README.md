@@ -85,9 +85,9 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 <!-- YT-SUBS:END -->
 
 <!-- YT-VIDEO:START -->
-<a href="https://www.youtube.com/watch?v=R0cSmAgQwPQ"><img src="https://i.ytimg.com/vi/R0cSmAgQwPQ/mqdefault.jpg" width="150" align="left" alt="How to Root Any Android Device With LOCKED BOOTLOADER in 1 Minute! 🔥 No PC, No Unlock [GhostLock]"/></a>
-<a href="https://www.youtube.com/watch?v=R0cSmAgQwPQ"><b>How to Root Any Android Device With LOCKED BOOTLOADER in 1 Minute! 🔥 No PC, No Unlock [GhostLock]</b></a><br/>
-<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 31 Oct 2026</sub>
+<a href="https://www.youtube.com/watch?v=db_ysycXtfE"><img src="https://i.ytimg.com/vi/db_ysycXtfE/mqdefault.jpg" width="150" align="left" alt="Root ANY Android Device in 1-Click! 🔥 Zero-Touch KernelSU &amp; Magisk [No PC]"/></a>
+<a href="https://www.youtube.com/watch?v=db_ysycXtfE"><b>Root ANY Android Device in 1-Click! 🔥 Zero-Touch KernelSU &amp; Magisk [No PC]</b></a><br/>
+<sub>🔥 LATEST&nbsp;&nbsp;·&nbsp;&nbsp;📅 3 Nov 2026</sub>
 <br clear="all"/>
 <br/>
 <a href="https://www.youtube.com/watch?v=v5adFI2we2M"><img src="https://i.ytimg.com/vi/v5adFI2we2M/mqdefault.jpg" width="150" align="left" alt="PixelExperience Plus on Mi Pad 5 📱 Android 13 Sideload Guide"/></a>
