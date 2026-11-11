@@ -1,6 +1,7 @@
-# ⚡ ROM Flasher Tool v1.4.1
+# ⚡ ROM Flasher Tool v1.5.0
 
 ### What's New:
-- **100% No-Touch Sideload Auto-Reboot:** Recovery me "Install additional packages? (Yes/No)" popup completely bypass ho gaya hai.
-- **Zero-Touch ROM Boot:** Sideload 100% hote hi target phone bina kisi click ke automatic new system me boot ho jayega.
-- **Update Dialog Scrollbar:** In-app update popup ke changelog box me scrollbar add kar diya gaya hai taaki full changelog scroll karke dekha ja sake.
+- **English-Only Experience:** Removed Hinglish text and the language switcher popup across the app for a cleaner, consistent UI.
+- **Liquid Glass Update Gate:** Upgraded the in-app update dialog with Liquid Glass styling and improved changelog readability.
+- **Unified Section Spacing:** Aligned the Root tab top header-to-card spacing cleanly to match the Tools section.
+- **Under-the-Hood Stability:** Restored VBMeta Disabler & GSI Flasher engines with full release build verification.

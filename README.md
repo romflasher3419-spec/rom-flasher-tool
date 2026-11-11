@@ -172,7 +172,7 @@ A huge thank you to every single subscriber who made this happen. ❤️ Downloa
 - **Payload Dumper** — extract `.bin` images directly from `payload.bin` with SHA-256 verification
 - **ROM-wise Backup Picker** for easy restoration
 - **Integrated Video Tutorials** inside the app
-- **Dual Language UI** — switch between English and Hinglish seamlessly with 1 tap
+- **Liquid Glass UI** — modern frosted Liquid Glass visual styling across dialogs and cards
 
 </details>
 
